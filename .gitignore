@@ -1,0 +1,17 @@
+*.app
+*.flf
+*flf.txt
+snapshots.json
+*.zip
+!NAVExtensions/**/*.app
+App/.vscode/.alcache/*
+App/.vscode/.altemplates/*
+App/.vscode/rad.json
+
+**rad.json
+cache_*.json
+**.g.xlf
+*g.xlf
+**table.entry.json
+**table.dictionary.json
+**.bclicense
