@@ -1,0 +1,25 @@
+{
+    "CRS.RemoveSuffixFromFilename": false,
+    "CRS.RenameWithGit": true,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.DisableDefaultAlSnippets": true,
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+      "${CodeCop}",
+      "${UICop}",
+      "${PerTenantExtensionCop}",
+      "${analyzerFolder}BusinessCentral.LinterCop.dll"
+    ],
+    "al.ruleSetPath": "./../NAVFreak.ruleset.json",
+
+"editor.codeActionsOnSave": {
+  "source.fixAll.al": "explicit"
+},
+  "alOutline.codeActionsOnSave": [
+    "SortProcedures", "SortProperties", "SortReportColumns", "SortVariables"
+  ],
+  "editor.snippetSuggestions": "bottom"
+}

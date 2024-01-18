@@ -1,0 +1,62 @@
+{
+    "name": "Company ruleset",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "Name of vars need to be suffixed. #Pointless"
+        },
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "Creating tooltip is not mandatory"
+        },
+        {
+            "id": "AA0232",
+            "action": "None",
+            "justification": "FlowField should be added to sift. #Pointless"
+        },
+        {
+            "id": "AA0235",
+            "action": "None",
+            "justification": "FlowField should be added to sift. #Pointless"
+        },        
+        {
+            "id": "AA0241",
+            "action": "None",
+            "justification": "start lettershould be small for keywords"
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Skip documentation of placeholders to labels"
+        },
+        {
+            "id": "LC0005",
+            "action": "None",
+            "justification": "Dont mind casing"
+        },
+        {
+            "id": "LC0015",
+            "action": "None",
+            "justification": "No permission <> tables, https://github.com/microsoft/alguidelines/discussions/211"
+        },
+        {
+            "id": "LC0021",
+            "action": "None",
+            "justification": "Confirm mgt doesnt have negativ user, positive rest"
+        },
+        {
+            "id": "PTE0004",
+            "action": "None",
+            "justification": "No need for matching permissionset in demo"
+        },
+        {
+            "id": "PTE0020",
+            "action": "None",
+            "justification": "Using multiversion branches, don't want this warning then"
+        }
+	
+    ]
+}
