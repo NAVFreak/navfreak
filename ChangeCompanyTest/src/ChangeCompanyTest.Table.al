@@ -1,3 +1,8 @@
+// Source: https://navfreak.com/2024/01/18/changecompany-command-is-dangerous/
+
+/// <summary>
+/// Table used to test the ChangeCompany command
+/// </summary>
 table 50100 "Change Company Test"
 {
     Caption = 'Change Company Test';

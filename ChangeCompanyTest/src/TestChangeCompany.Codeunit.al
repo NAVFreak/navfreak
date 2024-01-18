@@ -1,3 +1,8 @@
+// Source: https://navfreak.com/2024/01/18/changecompany-command-is-dangerous/
+
+/// <summary>
+/// This codeunit demonstrates the danger of the ChangeCompany command.
+/// </summary>
 codeunit 50103 "Test Change Company"
 {
 
